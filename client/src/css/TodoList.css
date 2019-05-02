@@ -1,0 +1,130 @@
+body {
+  background-color: #7ec0ee;
+}
+
+h1 {
+  background-color: #158fe0;
+  color: #ffffff;
+  margin: 0;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  background-color: #d3d3d3;
+  height: 40px;
+  font-size: 100%;
+  text-transform: capitalize;
+}
+
+li:nth-of-type(2n) {
+  background-color: #fff
+}
+
+#container {
+  margin: 100px auto;
+  width: 400px;
+}
+
+#todo-input {
+  border: none;
+  font-size: 18px;
+  height: 60px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+#plus {
+  cursor: pointer;
+  float: right;
+}
+
+#content {
+  height: 200px;
+}
+
+#pagination {
+  text-align: center;
+}
+
+#pagination .link {
+  background-color: #fff;
+  color: #000000;
+  display: inline-block;
+  font-size: 22px;
+  padding: 8px 14px;
+  margin: 5px 2px;
+  text-decoration: none;
+}
+
+#pagination .link.active {
+  color: #0000ff;
+}
+
+#pagination .link:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.tab {
+  cursor: pointer;
+  background-color: #158fe0;
+  border: solid 1px #158fe0;
+  color: #000000; 
+  font-size: 0.7em;
+  width: 33.3%;
+}
+
+.tab.active {
+  background-color: #fff;
+}
+
+.tab:hover:not(.active) {
+  border: solid 1px #808080;
+}
+
+.button, .goal {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.5em;
+  height: 40px;
+  text-align: center;
+  width: 40px;
+}
+
+.goal {
+  display: inline;
+  margin-left: 5px;
+}
+
+.delete {
+  background-color: #CD0000;
+}
+
+.edit {
+  background-color: #00008b;
+}
+
+.eightball {
+  background-color: #008000;
+}
+
+.fa-trash, .fa-edit, .fa-question-circle {
+  padding-top: 11px;
+} 
+
+.completed {
+  color: #808080;
+  text-decoration: line-through;
+}
+
+.hidden {
+  display: none;
+}
