@@ -15,8 +15,7 @@ Todo List CRUD application built with the MERN stack
 npm install
 
 # Install client dependencies
-cd client
-npm install
+npm run client-install
 
 # Run both Express & React from root
 npm run dev
